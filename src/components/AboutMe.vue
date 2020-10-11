@@ -7,8 +7,10 @@
         Is interested in web development, devops, software infrastructure, software architecture, code design, software security, agile and digital product management.
       </Content>
     </Introduction>
-    <Detailing>
       <Experiences>
+        <Title>Experiences</Title>
+        <TimelineEvent role="Software Manager" time="8 months" company="at CITi"/>
+        <TimelineEvent role="Full stack developer" time="6 months" company="at CITi"/>
       </Experiences>
 
       <Technologies>
@@ -41,7 +43,6 @@
           <Tag light>Leadership</Tag>
         </TagsWrapper>
       </Knowledge>
-    </Detailing>
 
     <WaterMark>ABOUT ME</WaterMark>
   </AboutMeWrapper>
@@ -49,34 +50,32 @@
 
 <script>
 import styled from 'vue-styled-components';
+import TimelineEvent from './TimelineEvent.vue';
 import { Theme, WaterMark, TagsWrapper, Tag } from '../assets/style';
 
 const AboutMeWrapper = styled.section`
   position: relative;
-  height: 100vh;
   width: 100%;
   background-color: #1B1B1B;
   background-image: linear-gradient(to right, #292828, #1B1B1B);
-  padding: 4rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 6rem 4rem;
+  display: grid;
+  grid-template-areas:
+    'introduction introduction'
+    'experiences technologies'
+    'experiences knowledge';
+  grid-template-columns: 20rem 1fr;
+  grid-gap: 2rem 4rem;
 `;
 
 const Title = styled.h2`
   font: ${Theme.font.subtitle};
   color: ${Theme.color.lightGray};
-  margin: 1.5rem 0 1rem 0;
+  margin: 0 0 1rem 0;
 `;
 
-const Introduction = styled.div``;
-
-const Detailing = styled.div`
-  display: grid;
-  grid-template-areas:
-    'experiences technologies'
-    'experiences knowledge';
-  grid-gap: 1rem 2rem;
+const Introduction = styled.div`
+  grid-area: introduction;
 `;
 
 const Content = styled.p`
@@ -84,9 +83,8 @@ const Content = styled.p`
   color: ${Theme.color.lightGray};
 `;
 
-const Experiences = styled.div`]
+const Experiences = styled.div`
   grid-area: experiences;
-  width: 5rem;
 `;
 
 const Technologies = styled.div`
@@ -106,11 +104,11 @@ export default {
     Tag,
     WaterMark,
     Introduction,
-    Detailing,
     Content,
     Experiences,
     Technologies,
     Knowledge,
+    TimelineEvent,
   },
 };
 </script>
