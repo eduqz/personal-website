@@ -6,6 +6,7 @@
 
     <Profile/>
     <AboutMe/>
+    <Projects/>
   </AppWrapper>
 </template>
 
@@ -14,6 +15,7 @@ import styled from 'vue-styled-components';
 import Sidebar from './components/Sidebar.vue';
 import Profile from './components/Profile.vue';
 import AboutMe from './components/AboutMe.vue';
+import Projects from './components/Projects.vue';
 import { GlobalStyle } from './assets/style';
 
 const AppWrapper = styled.div`
@@ -28,6 +30,7 @@ export default {
     Sidebar,
     Profile,
     AboutMe,
+    Projects,
   },
 };
 </script>
