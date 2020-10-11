@@ -1,13 +1,13 @@
 <template>
   <ProfileWrapper>
     <IntroductionWrapper>
-      <Subtitle>Me chamo Eduardo Almeida</Subtitle>
-      <Title>Entusiasta de Tecnologia</Title>
-      <Description>Fascinado por desenvolvimento de software</Description>
+      <Subtitle>I'm Eduardo Almeida</Subtitle>
+      <Title>A technology lover</Title>
+      <Description>Fascinated by innovation and passionate about software development</Description>
 
       <TagsWrapper>
+        <Tag>Software Development</Tag>
         <Tag>Project Management</Tag>
-        <Tag>Development</Tag>
       </TagsWrapper>
     </IntroductionWrapper>
 
@@ -17,7 +17,7 @@
       </PhotoFrame>
     </PhotoWrapper>
 
-    <WaterMark>SOFTWARE</WaterMark>
+    <WaterMark>TECHNOLOGY</WaterMark>
   </ProfileWrapper>
 </template>
 
@@ -57,7 +57,7 @@ const Title = styled.h1`
 const Description = styled.h3`
   font: ${Theme.font.bigText};
   color: ${Theme.color.lightGray};
-  margin: 1rem 0 0 0;
+  margin: 1rem 0 1.5rem 0;
 `;
 
 const PhotoWrapper = styled.div``;
