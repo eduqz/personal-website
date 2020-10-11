@@ -2,20 +2,26 @@
   <AppWrapper>
     <GlobalStyle/>
 
+    <Navbar/>
+
     <Sidebar/>
 
-    <Profile/>
-    <AboutMe/>
-    <Projects/>
+    <Profile id="profile"/>
+    <AboutMe id="about-me"/>
+    <Projects id="projects"/>
+
+    <Footer/>
   </AppWrapper>
 </template>
 
 <script>
 import styled from 'vue-styled-components';
+import Navbar from './components/Navbar.vue';
 import Sidebar from './components/Sidebar.vue';
 import Profile from './components/Profile.vue';
 import AboutMe from './components/AboutMe.vue';
 import Projects from './components/Projects.vue';
+import Footer from './components/Footer.vue';
 import { GlobalStyle } from './assets/style';
 
 const AppWrapper = styled.div`
@@ -27,10 +33,12 @@ export default {
   components: {
     GlobalStyle,
     AppWrapper,
+    Navbar,
     Sidebar,
     Profile,
     AboutMe,
     Projects,
+    Footer,
   },
 };
 </script>

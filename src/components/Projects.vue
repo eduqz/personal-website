@@ -6,9 +6,9 @@
 
 <script>
 import styled from 'vue-styled-components';
-import { Theme, WaterMark } from '../assets/style';
+import { WaterMark } from '../assets/style';
 
-const ProjectsWrapper = styled.div`
+const ProjectsWrapper = styled.section`
   position: relative;
   height: 100vh;
   width: 100%;

@@ -36,6 +36,7 @@ const GlobalStyle = injectGlobal`
   body,
   #root {
     height: 100vh;
+    scroll-behavior: smooth;
   }
 
   body {
@@ -57,6 +58,8 @@ const WaterMark = styled.p`
   font: ${Theme.font.waterMark};
   color: ${Theme.color.lightGray};
   opacity: 0.05;
+  overflow: hidden;
+  width: 100%;
 `;
 
 const TagsWrapper = styled.div`

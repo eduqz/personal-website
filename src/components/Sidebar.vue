@@ -20,7 +20,7 @@
 import styled from 'vue-styled-components';
 import { Theme } from '../assets/style';
 
-const SidebarWrapper = styled.div`
+const SidebarWrapper = styled.aside`
   background-color: ${Theme.color.darkGray};
   padding: 4rem 0.5rem;
   width: 5rem;

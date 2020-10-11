@@ -25,7 +25,7 @@
 import styled from 'vue-styled-components';
 import { Theme, WaterMark, TagsWrapper, Tag } from '../assets/style';
 
-const ProfileWrapper = styled.div`
+const ProfileWrapper = styled.section`
   position: relative;
   height: 100vh;
   width: 100%;

@@ -10,7 +10,7 @@
 import styled from 'vue-styled-components';
 import { Theme, WaterMark, TagsWrapper, Tag } from '../assets/style';
 
-const AboutMeWrapper = styled.div`
+const AboutMeWrapper = styled.section`
   position: relative;
   height: 100vh;
   width: 100%;
