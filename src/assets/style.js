@@ -64,17 +64,20 @@ const WaterMark = styled.p`
 
 const TagsWrapper = styled.div`
   display: flex;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
 `;
 
-const Tag = styled.p`
-  background-color: ${Theme.color.orange};
+const propsTag = { light: Boolean };
+
+const Tag = styled('p', propsTag)`
+  background-color: ${({ light }) => (light ? Theme.color.lightGray : Theme.color.orange)};
   font: ${Theme.font.text};
   font-weight: bold;
   padding: 0.25rem 1rem;
   border-radius: 2rem;
   color: ${Theme.color.black};
-  margin: 0 1rem 0 0;
+  margin: 0 1rem 0.5rem 0;
 `;
 
 
