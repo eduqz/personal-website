@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'vue-styled-components';
+import { injectGlobal } from 'vue-styled-components';
 
 const Theme = {
   color: {
@@ -12,11 +12,11 @@ const Theme = {
     subtitle: 'normal normal bold 2rem "Raleway", sans-serif',
     bigText: 'normal normal 500 1.25rem "Raleway", sans-serif',
     text: 'normal normal normal 1rem "Raleway", sans-serif',
-    waterMark: 'normal normal 900 8rem "Raleway", sans-serif',
+    waterMark: 'normal normal bold 12rem "Raleway", sans-serif',
   },
 };
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyle = injectGlobal`
   :root {
     font-size: 16px;
 

@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <Profile/>
-  </div>
 
-  <GlobalStyle/>
+    <GlobalStyle/>
+  </div>
 </template>
 
 <script>
