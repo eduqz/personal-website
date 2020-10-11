@@ -23,7 +23,6 @@
 
 <script>
 import styled from 'vue-styled-components';
-import PhotoURL from '../assets/img/profile.jpeg';
 import { Theme } from '../assets/style';
 
 const ProfileWrapper = styled.div`
@@ -122,7 +121,6 @@ export default {
     PhotoFrame,
     Photo,
     WaterMark,
-    PhotoURL,
   },
 };
 </script>

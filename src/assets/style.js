@@ -4,6 +4,7 @@ const Theme = {
   color: {
     orange: '#FF7A21',
     black: '#292828',
+    darkGray: '#383737',
     lightGray: '#C2C2C2',
     gray: '#676767',
   },
