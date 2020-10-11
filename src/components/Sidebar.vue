@@ -4,13 +4,13 @@
 
     <SocialMedias>
       <a href="www.google.com" target="_blank">
-        <Icon :src="require('../assets/icons/github.svg')" />
+        <Icon :src="require('../assets/icons/linkedin.svg')" />
       </a>
       <a href="www.google.com" target="_blank">
         <Icon :src="require('../assets/icons/github.svg')" />
       </a>
       <a href="www.google.com" target="_blank">
-        <Icon :src="require('../assets/icons/github.svg')" />
+        <Icon :src="require('../assets/icons/medium.svg')" />
       </a>
     </SocialMedias>
   </SidebarWrapper>
