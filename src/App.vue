@@ -1,10 +1,11 @@
 <template>
   <AppWrapper>
+    <GlobalStyle/>
+
     <Sidebar/>
 
     <Profile/>
-
-    <GlobalStyle/>
+    <AboutMe/>
   </AppWrapper>
 </template>
 
@@ -12,6 +13,7 @@
 import styled from 'vue-styled-components';
 import Sidebar from './components/Sidebar.vue';
 import Profile from './components/Profile.vue';
+import AboutMe from './components/AboutMe.vue';
 import { GlobalStyle } from './assets/style';
 
 const AppWrapper = styled.div`
@@ -21,10 +23,11 @@ const AppWrapper = styled.div`
 export default {
   name: 'App',
   components: {
+    GlobalStyle,
     AppWrapper,
     Sidebar,
     Profile,
-    GlobalStyle,
+    AboutMe,
   },
 };
 </script>

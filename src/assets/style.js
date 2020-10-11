@@ -1,4 +1,4 @@
-import { injectGlobal } from 'vue-styled-components';
+import styled, { injectGlobal } from 'vue-styled-components';
 
 const Theme = {
   color: {
@@ -50,5 +50,29 @@ const GlobalStyle = injectGlobal`
   }
 `;
 
+const WaterMark = styled.p`
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  font: ${Theme.font.waterMark};
+  color: ${Theme.color.lightGray};
+  opacity: 0.05;
+`;
 
-export { Theme, GlobalStyle };
+const TagsWrapper = styled.div`
+  display: flex;
+  margin-top: 2rem;
+`;
+
+const Tag = styled.p`
+  background-color: ${Theme.color.orange};
+  font: ${Theme.font.text};
+  font-weight: bold;
+  padding: 0.25rem 1rem;
+  border-radius: 2rem;
+  color: ${Theme.color.black};
+  margin: 0 1rem 0 0;
+`;
+
+
+export { Theme, GlobalStyle, WaterMark, TagsWrapper, Tag };

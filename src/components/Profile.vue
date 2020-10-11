@@ -23,7 +23,7 @@
 
 <script>
 import styled from 'vue-styled-components';
-import { Theme } from '../assets/style';
+import { Theme, WaterMark, TagsWrapper, Tag } from '../assets/style';
 
 const ProfileWrapper = styled.div`
   position: relative;
@@ -60,21 +60,6 @@ const Description = styled.h3`
   margin: 1rem 0 0 0;
 `;
 
-const TagsWrapper = styled.div`
-  display: flex;
-  margin-top: 2rem;
-`;
-
-const Tag = styled.p`
-  background-color: ${Theme.color.orange};
-  font: ${Theme.font.text};
-  font-weight: bold;
-  padding: 0.25rem 1rem;
-  border-radius: 2rem;
-  color: ${Theme.color.black};
-  margin: 0 1rem 0 0;
-`;
-
 const PhotoWrapper = styled.div``;
 
 const PhotoFrame = styled.div`
@@ -96,15 +81,6 @@ const Photo = styled.img`
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
-`;
-
-const WaterMark = styled.p`
-  position: absolute;
-  bottom: 2rem;
-  left: 1rem;
-  font: ${Theme.font.waterMark};
-  color: ${Theme.color.lightGray};
-  opacity: 0.05;
 `;
 
 export default {
