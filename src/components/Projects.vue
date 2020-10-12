@@ -9,6 +9,8 @@
       <Card name="BALB advocacy landing page" url="https://github.com/citi-onboarding/balb" urlText="../citi-onboarding/balb"/>
     </CardsWrapper>
 
+    <BottomOrnament :src="require('../assets/icons/ornament2.svg')"/>
+    <TopOrnament :src="require('../assets/icons/ornament3.svg')"/>
     <WaterMark>PROJECTS</WaterMark>
   </ProjectsWrapper>
 </template>
@@ -25,9 +27,11 @@ const ProjectsWrapper = styled.section`
   background-color: #1B1B1B;
   background-image: linear-gradient(to right, #292828, #1B1B1B);
   padding: 6rem 4rem;
+  overflow: hidden;
 
   @media(max-width: 1024px) {
     padding: 6rem 2rem;
+    min-height: calc(100vh - 4rem);
   }
 `;
 
@@ -44,6 +48,22 @@ const Title = styled.h2`
   margin: 0 0 2rem 0;
 `;
 
+const TopOrnament = styled.img`
+  position: absolute;
+  top: 4rem;
+  left: -4rem;
+  width: 50vw;
+  min-width: 30rem;
+`;
+
+const BottomOrnament = styled.img`
+  position: absolute;
+  bottom: 6rem;
+  right: -2rem;
+  width: 15vw;
+  min-width: 12.5rem;
+`;
+
 export default {
   name: 'Projects',
   components: {
@@ -52,6 +72,8 @@ export default {
     Title,
     CardsWrapper,
     Card,
+    TopOrnament,
+    BottomOrnament,
   },
 };
 </script>

@@ -41,6 +41,7 @@ const ProfileWrapper = styled.section`
     padding: 4rem 2rem 4rem 2rem;
     grid-template-columns: 1fr;
     grid-gap: 4rem;
+    min-height: calc(100vh - 4rem);
   }
 `;
 

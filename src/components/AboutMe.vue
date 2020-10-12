@@ -52,6 +52,7 @@
         </TagsWrapper>
       </Knowledge>
 
+    <Ornament :src="require('../assets/icons/ornament1.svg')"/>
     <WaterMark>ABOUT ME</WaterMark>
   </AboutMeWrapper>
 </template>
@@ -74,6 +75,7 @@ const AboutMeWrapper = styled.section`
     'experiences knowledge';
   grid-template-columns: 1fr;
   grid-gap: 2rem 4rem;
+  overflow: hidden;
 
   @media(max-width: 1024px) {
     padding: 6rem 2rem;
@@ -112,6 +114,14 @@ const Knowledge = styled.div`
   grid-area: knowledge;
 `;
 
+const Ornament = styled.img`
+  position: absolute;
+  top: 6rem;
+  right: -5rem;
+  width: 20vw;
+  min-width: 17.5rem;
+`;
+
 export default {
   name: 'AboutMe',
   components: {
@@ -126,6 +136,7 @@ export default {
     Technologies,
     Knowledge,
     TimelineEvent,
+    Ornament,
   },
 };
 </script>
