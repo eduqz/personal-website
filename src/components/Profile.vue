@@ -38,12 +38,15 @@ const ProfileWrapper = styled.section`
   align-items: center;
 
   @media(max-width: 1024px) {
-    padding: 8rem 2rem 4rem 2rem;
-    display: block;
+    padding: 4rem 2rem 4rem 2rem;
+    grid-template-columns: 1fr;
+    grid-gap: 4rem;
   }
 `;
 
-const IntroductionWrapper = styled.div``;
+const IntroductionWrapper = styled.div`
+  margin-top: 3rem;
+`;
 
 const Subtitle = styled.h2`
   font: ${Theme.font.subtitle};
@@ -74,8 +77,9 @@ const Description = styled.h3`
 const PhotoWrapper = styled.div`
   @media(max-width: 1024px) {
     max-width: 30rem;
-    min-width: 20rem;
-    margin: 3rem auto ;
+    width: 90%;
+    margin-bottom: auto;
+    justify-self: center;
   }
 `;
 
@@ -88,6 +92,10 @@ const PhotoFrame = styled.div`
   position: relative;
   margin: auto;
 
+  @media(max-width: 1024px) {
+    width: 90%;
+    padding: 45%;
+  }
 `;
 
 const Photo = styled.img`

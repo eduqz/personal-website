@@ -64,6 +64,7 @@ const WaterMark = styled.p`
 
   @media(max-width: 1024px) {
     font-size: 5rem;
+    bottom: 4rem;
   }
 `;
 
