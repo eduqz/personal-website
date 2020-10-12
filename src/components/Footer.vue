@@ -1,6 +1,6 @@
 <template>
   <FooterWrapper>
-    <EmailLink href="aaa">eduardoaqz@gmail.com</EmailLink>
+    <EmailLink href="mailto:eduardoaqz@gmail.com">eduardoaqz@gmail.com</EmailLink>
   </FooterWrapper>
 </template>
 

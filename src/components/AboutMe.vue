@@ -2,9 +2,17 @@
   <AboutMeWrapper>
     <Introduction>
       <Title>Introduction</Title>
-      <Content>Work as Software Manager at CITi - Junior Company linked to CIn / UFPE. Is a graduate student in Computer Engineering at UFPE and Computer Technician at IFRN. Has knowledge in JavaScript, Python, Java and C programming languages; using relational (MySQL and PostgreSQL) and non-relational (MongoDB and Firebase) databases.
-        Has experience in developing web applications using, at the front-end level, HTML, CSS and React; and, for back-end, with Node + Express, Play Framework and Django Rest. Has also experienced team management tactics and software projects, as well as the application of agile methodologies in this scenario (emphasis on Scrum).
-        Is interested in web development, devops, software infrastructure, software architecture, code design, software security, agile and digital product management.
+      <Content>
+        Work as Software Manager at CITi - Junior Company linked to CIn / UFPE.
+        Is a graduate student in Computer Engineering at UFPE and Computer Technician at IFRN.
+        Has knowledge in JavaScript, Python, Java and C programming languages; using relational
+        (MySQL and PostgreSQL) and non-relational (MongoDB and Firebase) databases.
+        Has experience in developing web applications using, at the front-end level, HTML,
+        CSS and React; and, for back-end, with Node + Express, Play Framework and Django Rest.
+        Has also experienced team management tactics and software projects, as well as the
+        application of agile methodologies in this scenario (emphasis on Scrum).
+        Is interested in web development, devops, software infrastructure, software architecture,
+        code design, software security, agile and digital product management.
       </Content>
     </Introduction>
       <Experiences>
