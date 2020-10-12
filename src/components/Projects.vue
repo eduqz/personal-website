@@ -2,10 +2,11 @@
   <ProjectsWrapper>
     <Title>Projects</Title>
     <CardsWrapper>
-      <Card name="CSS grid guide" url="https://github.com/eduqz/grid-guide" urlText="../eduqz/grid-guide"/>
       <Card name="Library book registration" url="https://github.com/eduqz/library-manager" urlText="../eduqz/library-manager"/>
-      <Card name="Introduction project to programming" url="https://github.com/eduqz/projeto-ip" urlText="../eduqz/projeto-ip"/>
       <Card name="Personal website" url="https://github.com/eduqz/eduqz.github.io" urlText="../eduqz/eduqz.github.io"/>
+      <Card name="Clothes API (learning FastAPI)" url="https://github.com/eduqz/clothes-api" urlText="../eduqz/clothes-api"/>
+      <Card name="Introduction project to programming" url="https://github.com/eduqz/projeto-ip" urlText="../eduqz/projeto-ip"/>
+      <Card name="CSS grid guide" url="https://github.com/eduqz/grid-guide" urlText="../eduqz/grid-guide"/>
       <Card name="BALB advocacy landing page" url="https://github.com/citi-onboarding/balb" urlText="../citi-onboarding/balb"/>
     </CardsWrapper>
 
