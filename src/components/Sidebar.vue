@@ -3,13 +3,13 @@
     <HightlightedText>EDUARDO ALMEIDA</HightlightedText>
 
     <SocialMedias>
-      <a href="www.google.com" target="_blank">
+      <a href="https://www.linkedin.com/in/eduardoaqz/" target="_blank">
         <Icon :src="require('../assets/icons/linkedin.svg')" />
       </a>
-      <a href="www.google.com" target="_blank">
+      <a href="https://github.com/eduqz" target="_blank">
         <Icon :src="require('../assets/icons/github.svg')" />
       </a>
-      <a href="www.google.com" target="_blank">
+      <a href="https://medium.com/@eaq" target="_blank">
         <Icon :src="require('../assets/icons/medium.svg')" />
       </a>
     </SocialMedias>
