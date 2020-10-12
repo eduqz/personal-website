@@ -46,7 +46,9 @@ const ProfileWrapper = styled.section`
 `;
 
 const IntroductionWrapper = styled.div`
-  margin-top: 3rem;
+  @media(max-width: 1024px) {
+    margin-top: 3rem;
+  }
 `;
 
 const Subtitle = styled.h2`
