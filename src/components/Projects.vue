@@ -31,7 +31,7 @@ const ProjectsWrapper = styled.section`
 
   @media(max-width: 1024px) {
     padding: 6rem 2rem;
-    min-height: calc(100vh - 4rem);
+    min-height: calc(100vh - 5rem);
   }
 `;
 

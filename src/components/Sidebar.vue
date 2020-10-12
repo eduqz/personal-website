@@ -36,7 +36,7 @@ const SidebarWrapper = styled.aside`
 
   @media(max-width: 1024px) {
     width: 100%;
-    height: 4rem;
+    height: 5rem;
     top: unset;
     bottom: 0;
     padding: 0 2rem;
@@ -73,7 +73,8 @@ const Icon = styled.img`
   }
 
   @media(max-width: 1024px) {
-    margin: 0 0 0 1rem;
+    margin: 0 0 0 1.5rem;
+    height: 1.75rem;
   }
 `;
 
