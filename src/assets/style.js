@@ -13,6 +13,7 @@ const Theme = {
     subtitle: 'normal normal bold 2rem "Raleway", sans-serif',
     bigText: 'normal normal 500 1.25rem "Raleway", sans-serif',
     text: 'normal normal normal 1rem "Raleway", sans-serif',
+    smallText: 'normal normal normal 0.8rem "Raleway", sans-serif',
     waterMark: 'normal normal bold 12rem "Raleway", sans-serif',
   },
 };
