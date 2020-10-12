@@ -73,12 +73,13 @@ const AboutMeWrapper = styled.section`
     'introduction introduction'
     'experiences technologies'
     'experiences knowledge';
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-gap: 2rem 4rem;
   overflow: hidden;
 
   @media(max-width: 1024px) {
     padding: 6rem 2rem;
+    grid-template-columns: 1fr;
     grid-template-areas:
       'introduction'
       'experiences'
