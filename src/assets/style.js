@@ -23,7 +23,7 @@ const GlobalStyle = injectGlobal`
     font-size: 16px;
 
     @media(max-width: 1024px) {
-        font-size: 14px;
+        font-size: 12px;
     }
   }
 
@@ -61,6 +61,10 @@ const WaterMark = styled.p`
   opacity: 0.05;
   overflow: hidden;
   width: 100%;
+
+  @media(max-width: 1024px) {
+    font-size: 5rem;
+  }
 `;
 
 const TagsWrapper = styled.div`

@@ -26,6 +26,10 @@ import { GlobalStyle } from './assets/style';
 
 const AppWrapper = styled.div`
   padding: 0 0 0 5rem;
+
+  @media(max-width: 1024px) {
+    padding: 0 0 4rem 0;
+  }
 `;
 
 export default {

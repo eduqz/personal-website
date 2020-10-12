@@ -16,6 +16,10 @@ const FooterWrapper = styled.footer`
   display: inline-flex;
   align-items: center;
   justify-content: flex-end;
+
+  @media(max-width: 1024px) {
+    display: none;
+  }
 `;
 
 const EmailLink = styled.a`

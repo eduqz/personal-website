@@ -33,17 +33,34 @@ const SidebarWrapper = styled.aside`
   justify-content: space-between;
   align-items: center;
   z-index: 10;
+
+  @media(max-width: 1024px) {
+    width: 100%;
+    height: 4rem;
+    top: unset;
+    bottom: 0;
+    padding: 0 2rem;
+    flex-direction: row;
+  }
 `;
 
 const HightlightedText = styled.p`
   font: ${Theme.font.bigText};
   color: ${Theme.color.lightGray};
   writing-mode: vertical-rl;
+
+  @media(max-width: 1024px) {
+    writing-mode: unset;
+  }
 `;
 
 const SocialMedias = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media(max-width: 1024px) {
+    flex-direction: row;
+  }
 `;
 
 const Icon = styled.img`
@@ -53,6 +70,10 @@ const Icon = styled.img`
 
   &:hover {
     transform: scale(1.2);
+  }
+
+  @media(max-width: 1024px) {
+    margin: 0 0 0 1rem;
   }
 `;
 

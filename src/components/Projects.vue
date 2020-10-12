@@ -25,6 +25,10 @@ const ProjectsWrapper = styled.section`
   background-color: #1B1B1B;
   background-image: linear-gradient(to right, #292828, #1B1B1B);
   padding: 6rem 4rem;
+
+  @media(max-width: 1024px) {
+    padding: 6rem 2rem;
+  }
 `;
 
 const CardsWrapper = styled.div`

@@ -19,6 +19,10 @@ const NavbarWrapper = styled.nav`
   position: fixed;
   top: 1.5rem;
   right: 4rem;
+
+  @media(max-width: 1024px) {
+    right: 2rem;
+  }
 `;
 
 const propsNavbar = { selected: Number };

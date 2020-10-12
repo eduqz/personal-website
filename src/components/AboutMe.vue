@@ -72,8 +72,17 @@ const AboutMeWrapper = styled.section`
     'introduction introduction'
     'experiences technologies'
     'experiences knowledge';
-  grid-template-columns: 20rem 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 2rem 4rem;
+
+  @media(max-width: 1024px) {
+    padding: 6rem 2rem;
+    grid-template-areas:
+      'introduction'
+      'experiences'
+      'technologies'
+      'knowledge';
+  }
 `;
 
 const Title = styled.h2`

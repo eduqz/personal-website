@@ -27,7 +27,7 @@ import { Theme, WaterMark, TagsWrapper, Tag } from '../assets/style';
 
 const ProfileWrapper = styled.section`
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-color: #1B1B1B;
   background-image: linear-gradient(to right, #1B1B1B , #3E3D3D);
@@ -36,22 +36,33 @@ const ProfileWrapper = styled.section`
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
   align-items: center;
+
+  @media(max-width: 1024px) {
+    padding: 8rem 2rem 4rem 2rem;
+    display: block;
+  }
 `;
 
-const IntroductionWrapper = styled.div`
-  
-`;
+const IntroductionWrapper = styled.div``;
 
 const Subtitle = styled.h2`
   font: ${Theme.font.subtitle};
   color: ${Theme.color.orange};
   margin: 0;
+
+  @media(max-width: 1024px) {
+    font-size: 1.75rem;
+  }
 `;
 
 const Title = styled.h1`
   font: ${Theme.font.title};
   color: ${Theme.color.lightGray};
   margin: 1.5rem 0 0 0;
+
+  @media(max-width: 1024px) {
+    font-size: 3rem;
+  }
 `;
 
 const Description = styled.h3`
@@ -60,7 +71,13 @@ const Description = styled.h3`
   margin: 1rem 0 1.5rem 0;
 `;
 
-const PhotoWrapper = styled.div``;
+const PhotoWrapper = styled.div`
+  @media(max-width: 1024px) {
+    max-width: 30rem;
+    min-width: 20rem;
+    margin: 3rem auto ;
+  }
+`;
 
 const PhotoFrame = styled.div`
   width: 80%;
@@ -70,6 +87,7 @@ const PhotoFrame = styled.div`
   border: solid 3px ${Theme.color.gray};
   position: relative;
   margin: auto;
+
 `;
 
 const Photo = styled.img`
