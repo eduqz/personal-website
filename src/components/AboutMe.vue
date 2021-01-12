@@ -4,15 +4,15 @@
       <Title>Introduction</Title>
       <Content>
         <P>
-          Full Stack Developer, Project Manager and, sometimes, just someone who
-          works with technology.
+          I'm formally a Developer (at <b>loomi</b> & <b>GZero</b>), but I actually like to be
+          referred as <i>someone who works with technology</i>.
         </P>
         <P>
           Graduation student in Computer Engineering at CIn / UFPE and Computer
           Technician at IFRN.
         </P>
         <P>
-          Is interested in web development, devops, software infrastructure,
+          I'm interested in web development, software management, devops, software infrastructure,
           software architecture, code design, software security, agile and
           digital product management.
         </P>
@@ -21,12 +21,17 @@
     <Experiences>
       <Title>Experiences</Title>
       <TimelineEvent
+        role="Software developer"
+        time="Now (since 2021)"
+        company="at loomi & GZero"
+      />
+      <TimelineEvent
         role="Software Manager"
         time="1 year (2020)"
         company="at CITi"
       />
       <TimelineEvent
-        role="Full stack developer"
+        role="Software developer"
         time="6 months (2019.2)"
         company="at CITi"
       />
