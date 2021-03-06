@@ -4,17 +4,18 @@
       <Title>Introduction</Title>
       <Content>
         <P>
-          I'm formally a Developer (at <b>loomi</b> & <b>GZero</b>), but I actually like to be
-          referred as <i>someone who works with technology</i>.
+          I'm formally a Developer (at <b>loomi</b> & <b>GZero</b>), but I
+          actually like to be referred as
+          <i>someone who works with technology</i>.
         </P>
         <P>
           Graduation student in Computer Engineering at CIn / UFPE and Computer
           Technician at IFRN.
         </P>
         <P>
-          I'm interested in web development, software management, devops, software infrastructure,
-          software architecture, code design, software security, agile and
-          digital product management.
+          I'm interested in web development, software management, devops,
+          software infrastructure, software architecture, code design, software
+          security, agile and digital product management.
         </P>
       </Content>
     </Introduction>
@@ -41,6 +42,7 @@
       <Title>Technologies</Title>
       <TagsWrapper>
         <Tag>Javascript</Tag>
+        <Tag>Python</Tag>
         <Tag>React</Tag>
         <Tag>Node.js</Tag>
         <Tag>HTML</Tag>
@@ -55,6 +57,9 @@
         <Tag>C</Tag>
         <Tag>Express</Tag>
         <Tag>Sequelize</Tag>
+        <Tag>Docker</Tag>
+        <Tag>Dokku</Tag>
+        <Tag>Linux</Tag>
       </TagsWrapper>
     </Technologies>
 
