@@ -45,14 +45,14 @@ const NavbarComponent = styled('ul', propsNavbar)`
     bottom: -0.5rem;
     left: 2rem;
     margin-left: ${props => `${6.5 * parseInt(props.selected, 10)}rem`};
-    transition: all .2s ease-in-out;
+    transition: all .1s ease-in-out;
   }
 `;
 
 const NavItem = styled.li`
   width: 6.5rem;
   text-align: center;
-  transition: all .2s ease-in-out;
+  transition: all .1s ease-in-out;
 
   &:hover {
     transform: scale(1.1);
@@ -61,7 +61,7 @@ const NavItem = styled.li`
 
 const NavLink = styled.a`
   text-decoration: none;
-  transition: all .2s ease-in-out;
+  transition: all .1s ease-in-out;
   color: ${Theme.color.lightGray};
 
   &:hover {

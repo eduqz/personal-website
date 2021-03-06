@@ -84,6 +84,13 @@ const Tag = styled('p', propsTag)`
   border-radius: 2rem;
   color: ${Theme.color.black};
   margin: 0 1rem 0.5rem 0;
+  transition: all .1s ease-in-out;
+  cursor: default;
+  z-index: 2;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
 
 

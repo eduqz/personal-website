@@ -1,10 +1,10 @@
 <template>
   <CardWrapper>
     <CardContent>
-      <Title>{{name}}</Title>
+      <Title>{{ name }}</Title>
       <LinkWrapper>
         <Icon :src="require('../assets/icons/github.svg')" />
-        <CardLink :href="url" target="_blank">{{urlText}}</CardLink>
+        <CardLink :href="url" target="_blank">{{ urlText }}</CardLink>
       </LinkWrapper>
     </CardContent>
   </CardWrapper>
@@ -34,6 +34,11 @@ const CardContent = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  transition: all .1s ease-in-out;
+
+  &:hover {
+    border-color: ${Theme.color.lightGray};
+  }
 `;
 
 const Title = styled.p`
@@ -49,6 +54,8 @@ const LinkWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 15px;
+  text-align: center;
 `;
 
 const Icon = styled.img`
@@ -59,7 +66,6 @@ const CardLink = styled.a`
   font: ${Theme.font.smallText};
   color: ${Theme.color.lightGray};
 `;
-
 
 export default {
   name: 'Card',

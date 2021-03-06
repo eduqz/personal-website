@@ -27,7 +27,7 @@ const EmailLink = styled.a`
   color: ${Theme.color.lightGray};
   cursor: pointer;
   margin: auto 0;
-  transition: all .2s ease-in-out;
+  transition: all .1s ease-in-out;
   text-decoration: none;
 
   &:hover {
