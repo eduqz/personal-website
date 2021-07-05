@@ -22,8 +22,13 @@
     <Experiences>
       <Title>Experiences</Title>
       <TimelineEvent
-        role="Software developer"
-        time="Now (since 2021)"
+        role="Software Manager"
+        time="Now (since 2021.2)"
+        company="at loomi & GZero"
+      />
+      <TimelineEvent
+        role="Software Developer"
+        time="6 months (since 2021.1)"
         company="at loomi & GZero"
       />
       <TimelineEvent
@@ -32,7 +37,7 @@
         company="at CITi"
       />
       <TimelineEvent
-        role="Software developer"
+        role="Software Developer"
         time="6 months (2019.2)"
         company="at CITi"
       />
@@ -45,6 +50,7 @@
         <Tag>Python</Tag>
         <Tag>React</Tag>
         <Tag>Node.js</Tag>
+        <Tag>Django</Tag>
         <Tag>HTML</Tag>
         <Tag>SASS</Tag>
         <Tag>MongoDB</Tag>
@@ -55,8 +61,7 @@
         <Tag>Java</Tag>
         <Tag>Play Framework</Tag>
         <Tag>C</Tag>
-        <Tag>Express</Tag>
-        <Tag>Sequelize</Tag>
+        <Tag>AWS Services</Tag>
         <Tag>Docker</Tag>
         <Tag>Dokku</Tag>
         <Tag>Linux</Tag>
